@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Styles from "./Header.module.css";
 
+
 export function Header() {
     return (
         <header>
@@ -22,8 +23,10 @@ export function Header() {
                     </li>
 
                     <li>
-                        <Link href="/">
-                            <a>Favoritos</a>
+                        <Link href="/favorito">
+                            <a>
+                                Favoritos
+                            </a>
                         </Link>
                     </li>
                 </ul>
