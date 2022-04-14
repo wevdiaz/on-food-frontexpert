@@ -16,9 +16,7 @@ const Home: NextPage = () => {
 
       <Header />
 
-      <h1 className="text-3xl font-bold underline">
-        Hello world! Testando Tailwind - Diazz
-      </h1>
+     
       
     </div>
   )
