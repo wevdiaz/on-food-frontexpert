@@ -1,3 +1,4 @@
+import { PageTemplate } from "@/components";
 import { useRouter } from "next/router";
 
 export default function Descobrir() {
@@ -5,6 +6,8 @@ export default function Descobrir() {
     const city = router.query.city;
 
     return (
-        <h1>Descobriu - {city} </h1>
+        <PageTemplate>
+            <h1>Descobriu - {city} </h1>
+        </PageTemplate>
     );
 }

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { Header } from "@/components";
+import { PageTemplate} from "@/components";
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +14,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+     <PageTemplate>
+       <h1>Encontre opções em Delivery próximos á você.</h1>
 
-     
+       <h2>Descubra seu novo Delivery favorito. Milhares de opções a um clique.</h2>
+     </PageTemplate>
       
     </div>
   )
