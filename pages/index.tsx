@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import Styles from '../styles/internals.module.css'
 
 import { PageTemplate, Dishe } from "@/components";
 
@@ -15,10 +16,13 @@ const Home: NextPage = () => {
       </Head>
 
      <PageTemplate>
-       <h1>Encontre opções em Delivery próximos á você.</h1>
 
-       <h2>Descubra seu novo Delivery favorito. Milhares de opções a um clique.</h2>
-       <Dishe />
+       <div className={Styles.content}>
+          <h1>Encontre opções em Delivery próximos á você.</h1>
+
+          <h2>Descubra seu novo Delivery favorito. Milhares de opções a um clique.</h2>
+       </div>
+
      </PageTemplate>
       
     </div>
