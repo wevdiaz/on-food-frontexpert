@@ -17,3 +17,21 @@
 .search button svg {
     @apply w-4 h-4 fill-white;
 }
+
+.options {
+    @apply relative w-full max-w-md mx-auto;
+}
+
+.options div {
+    @apply absolute w-full mt-3 bg-white shadow rounded-xl overflow-hidden;
+}
+
+.options a {
+    @apply block px-6 py-4 transition-colors;
+    @apply text-sm text-[#333333] hover:bg-[#f3f3f3];
+    @apply border-b border-[#e7e7e7];
+}
+
+.options a:last-child {
+    @apply border-b-0;
+}
