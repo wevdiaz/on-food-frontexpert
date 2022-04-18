@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Styles from '../styles/internals.module.css'
 
-import { PageTemplate, Search, Dishe } from "@/components";
+import { PageTemplate, Search, Dishe, Character } from "@/components";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +23,9 @@ const Home: NextPage = () => {
           <Search />
 
           <h2>Descubra seu novo Delivery favorito. Milhares de opções a um clique.</h2>
+          
+          <Character />
+
        </div>
 
      </PageTemplate>
