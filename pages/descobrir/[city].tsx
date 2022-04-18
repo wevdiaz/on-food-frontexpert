@@ -7,7 +7,7 @@ export default function Descobrir() {
 
     return (
         <PageTemplate>
-            <h1>Descobriu - {city} </h1>
+            <h1>Opções na região de {city} </h1>
         </PageTemplate>
     );
 }
