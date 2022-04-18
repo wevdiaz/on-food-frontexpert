@@ -1,9 +1,12 @@
 import { Menu } from "@headlessui/react";
+import { IconFilter } from "@/icons";
+
+import Styles from "./Search.module.css";
 
 export function Search() {
     return (
-       <Menu as = "div">
-           <Menu.Button> Selecione uma cidade para iniciar </Menu.Button>
+       <Menu as = "div" className={Styles.search}>
+           <Menu.Button> Selecione uma cidade para iniciar <span><IconFilter /></span></Menu.Button>
            <Menu.Items>
                <div>
                    <Menu.Item>

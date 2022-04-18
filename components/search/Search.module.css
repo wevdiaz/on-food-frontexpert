@@ -1,0 +1,19 @@
+.search {
+    @apply relative inline-block w-full;
+}
+
+.search button {
+    @apply flex rounded-full w-full max-w-lg mx-auto;
+    @apply text-[#777] bg-white shadow p-2 pl-8;
+    @apply items-center justify-between transition-colors;
+    @apply hover:bg-gray-200;
+}
+
+.search button span {
+    @apply flex items-center justify-center rounded-full w-12 h-12;
+    background-color: var(--color-primary);
+}
+
+.search button svg {
+    @apply w-4 h-4 fill-white;
+}
