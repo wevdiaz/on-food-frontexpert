@@ -10,7 +10,7 @@ export function DisheDetails({ type, title , subtitle }: DisheDetailsProps) {
         <div className={Styles.detail}>
             <div className={Styles.icon}><Icon /></div>
             
-            {subtitle} && <span>{subtitle}</span>
+            {subtitle && <span>{subtitle}</span>}
             {title}
         </div>
     );
