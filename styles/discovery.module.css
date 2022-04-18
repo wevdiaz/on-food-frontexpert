@@ -4,12 +4,6 @@
     color: var(--text-color-primary);
 }
 
-.content h2 {
-    @apply text-lg text-center font-semibold leading-6 mt-12;
-    @apply md:text-xl md:leading-8;
-    color: var(--text-color-secondary);
-}
-
 .content p {
     @apply text-sm mb-8;
 }
