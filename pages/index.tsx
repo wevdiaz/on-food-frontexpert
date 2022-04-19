@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Styles from '../styles/internals.module.css'
 
-import { PageTemplate, Search, Dishe, Character } from "@/components";
+import { PageTemplate, Search, Character } from "@/components";
 
 const Home: NextPage = () => {
   return (

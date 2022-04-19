@@ -1,4 +1,4 @@
-import { PageTemplate, Dishe, DisheList } from "@/components";
+import { PageTemplate, Dish, DishList } from "@/components";
 import { useRouter } from "next/router";
 
 import Styles from "../../styles/discovery.module.css";
@@ -14,7 +14,7 @@ export default function Descobrir() {
                 <p>Encontramos x opções</p>
 
                 <div className={Styles.items}>
-                    <DisheList />
+                    <DishList />
                 </div>
 
            </div>
