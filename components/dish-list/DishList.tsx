@@ -4,11 +4,13 @@ import { Dish } from "@/components";
 import { api } from "@services";
 import { useQuery } from "react-query";
 import { DishType } from "core/types";
+import { DishListProps } from "./type";
+import { DishSkeleton } from "@/components";
 
-export function DishList() {
+export function DishList(props: DishListProps) {
 
     const fetchDishes = async () => {
-        const response = await api.get<DishType[]>("/deliveries?city=sao-paulo-sp");
+        const response = await api.get<DishType[]>(`/deliveries?city=${props.citySlug}`);
         return response.data;
     }
 
@@ -17,7 +19,7 @@ export function DishList() {
     return (
         <div className={Styles.list}>
            {isFetching ? (
-               <div>Carregando...</div>
+               <DishSkeleton />
            ) : (
                data?.map((dish, index) => <Dish key={dish.id} { ...dish} /> )
            )}
