@@ -7,7 +7,7 @@ import Styles from "../../styles/discovery.module.css";
 
 export default function Descobrir(props: PageDiscoverProps) {
     
-    const { city } = props;
+    const { city } = props;      
 
     return (
             <>
@@ -51,7 +51,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params } : ParamsStaticProps) {
     const citySlug = params?.city as string;
     const response = await api.get(`/cities?citySlug=${citySlug}`);
-    const city = response.data;
+    const city = response.data;   
 
     return {
         props: {
