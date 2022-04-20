@@ -26,5 +26,5 @@
 .brand a {
      @apply flex items-center gap-2 text-black;
      @apply text-xl md:text-2xl font-bold;
-     @apply transition-opacity hover:opacity-80
+     @apply transition-opacity hover:opacity-80;
 }
