@@ -1,14 +1,11 @@
-#OnFood
+# OnFood
 
 ***
 
  <p align="center">  
       <a>
           <img src="https://img.shields.io/github/repo-size/wevdiaz/on-food-frontexpert?color=%235f27cd">         
-      </a>  
-      <a>
-          <img src="https://img.shields.io/github/license/wevdiaz/Rocket.Q?color=%233485ff">         
-      </a>      
+      </a>           
       <a>
           <img src="https://img.shields.io/github/languages/count/wevdiaz/on-food-frontexpert?color=%235f27cd">         
       </a>      
@@ -20,7 +17,7 @@
 <p align="center">
     <a href="#speech_balloon-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+    <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
 </p>
 
 ### :speech_balloon: Sobre
