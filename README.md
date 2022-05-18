@@ -1,4 +1,4 @@
-# OnFood
+# <img src="https://raw.githubusercontent.com/wevdiaz/on-food-frontexpert/main/assets/logo.png" alt="logo"> OnFood
 
 ***
 
@@ -11,13 +11,17 @@
       </a>      
       <a>          
           <img alt="Diazz" src="https://img.shields.io/badge/made%20by-Diazz-on?color=%235f27cd"> 
-      </a>      
+      </a> 
+       <a>
+          <img src="https://img.shields.io/github/license/wevdiaz/on-food-frontexpert?color=%235f27cd">        
+       </a>
   </p> 
 
 <p align="center">
     <a href="#speech_balloon-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+    <a href="#gear-requesitos">Requesitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+    <a href="#scroll-licença">Licença</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 ### :speech_balloon: Sobre
@@ -39,5 +43,8 @@ Para rodar a aplicação, instale o node.
 * **npm install** -> para instalar as dependências necessárias do projeto.
 * **npm start** -> para rodar aplicação
 
+### :scroll: Licença
+
+Esse projeto está sob a licença [MIT](https://github.com/wevdiaz/on-food-frontexpert/blob/main/LICENSE)
 
 Projeto sendo desenvolvido com :blue_heart: e animação  :star_struck: . Rumo ao próximo nível :rocket:
